@@ -5,6 +5,11 @@ body {
   font-family: 'Noto Sans JP', verdana, sans-serif;
 }
 
+h1 {
+  font-family: 'Abril Fatface', Times, cursive;
+  font-size: 60px;
+}
+
 a{
   color: blue;
   text-decoration: none;
