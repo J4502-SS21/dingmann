@@ -18,6 +18,7 @@ img{
 h2{
   font-size: 27px;
   font-family: 'Playfair Display', Times, serif;
+  background: #C9B805
 }
 
 ul{
@@ -25,6 +26,7 @@ ul{
   background: #232889;
   font-size: 14px;
   float: left;
+  padding: 20px;
 }
 
 a:hover{
