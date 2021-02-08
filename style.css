@@ -21,21 +21,22 @@ h2{
   background: #C9B805
 }
 
-ul{
+ul li{
   list-style-type: none;
   background: #232889;
+  float: left;
+  display: block;
+}
+
+
+li a{
+  display: block;
   font-size: 14px;
   padding: 20px;
 }
 
-ul li {
-  float: left;
-  padding: 2px:
-}
-
-li a{
-  display: block;
-  text-align: center;
+@media screen and (max-width: 600px) {
+  ul li {float: none;}
 }
 
 a:hover{
