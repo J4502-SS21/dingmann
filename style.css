@@ -11,9 +11,10 @@ a{
 }
 
 img{
-  min-width: 200px;
-  max-width: 400px;
   border: 0;
+  width: 60%;
+  min-width: 200px;
+  max-width: 500px;
 }
 
 h2{
@@ -43,10 +44,10 @@ li a{
   ul li {float: none;}
 }
 
-a:hover{
-  background-color: black;
+a:hover img{
+  border: none !important;
 }
 
-a:hover img{
-  border: 0px;
+a:hover{
+  background-color: black;
 }
