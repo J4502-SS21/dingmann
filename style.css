@@ -25,8 +25,17 @@ ul{
   list-style-type: none;
   background: #232889;
   font-size: 14px;
-  float: left;
   padding: 20px;
+}
+
+ul li {
+  float: left;
+  padding: 2px:
+}
+
+li a{
+  display: block;
+  text-align: center;
 }
 
 a:hover{
