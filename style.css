@@ -33,7 +33,7 @@ h2{
 ul li{
   list-style-type: none;
   background: #232889;
-  float: left;
+  float: center;
   display: block;
 }
 
