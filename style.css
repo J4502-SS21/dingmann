@@ -49,10 +49,6 @@ li a{
   color: yellow;
 }
 
-@media screen and (max-width: 600px) {
-  ul li {float: none;}
-}
-
 a:hover img{
   border: none !important;
 }
