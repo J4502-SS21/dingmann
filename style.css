@@ -47,6 +47,7 @@ li a{
   font-size: 18px;
   padding: 20px;
   color: yellow;
+  list-style-type: none;
 }
 
 a:hover img{
