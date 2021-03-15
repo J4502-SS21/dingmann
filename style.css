@@ -37,15 +37,13 @@ ul li{
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-size: 19px;
-  margin-top: 0;
 }
 
 
 li a{
   display: flex;
   font-size: 18px;
-  padding: 20px;
+  padding: 0px;
   color: yellow;
   list-style-type: none;
 }
