@@ -43,7 +43,7 @@ ul li{
 
 
 li a{
-  display: block;
+  display: flex;
   font-size: 18px;
   padding: 20px;
   color: yellow;
