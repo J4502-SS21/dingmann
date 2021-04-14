@@ -30,25 +30,33 @@ h2{
   background: #C9B805
 }
 
-ul{
-  list-style-type: none;
-  background: #232889;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-
 li{
   font-size: 18px;
-  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: yellow;
   list-style-type: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 li a{
   color: yellow;
+}
+
+ul{
+  list-style-type: none;
+  background: #232889;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav{
+  background: #232889;
 }
 
 a:hover img{
@@ -57,4 +65,23 @@ a:hover img{
 
 a:hover{
   background-color: black;
+}
+
+#menu_trigger{
+  display: none;
+}
+
+@media (max-width: 600px){
+  #menu_trigger{
+    display: contents;
+    position: absolute;
+    top: 0px;
+    color: gold;
+    background-color: grey;
+  }
+
+  #menu-nav{
+    display: none;
+  }
+
 }
