@@ -10,6 +10,10 @@ h1 {
   font-size: 60px;
 }
 
+h3{
+  font-family: 'Abril Fatface', Times, cursive;
+}
+
 a{
   color: blue;
   text-decoration: none;
