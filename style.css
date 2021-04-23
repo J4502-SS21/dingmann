@@ -19,7 +19,7 @@ img{
   border: 0;
   width: 60%;
   min-width: 200px;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 h2{
@@ -30,7 +30,7 @@ h2{
   background: #C9B805
 }
 
-li{
+.nav{
   font-size: 18px;
   padding-left: 60px;
   padding-right: 60px;
@@ -46,7 +46,17 @@ li a{
   color: yellow;
 }
 
-ul{
+.digital{
+  color:blue;
+  text-align: left;
+}
+
+.links{
+  list-style-type: none;
+}
+
+
+#menu-nav{
   list-style-type: none;
   background: #232889;
   display: flex;
@@ -64,7 +74,20 @@ a:hover img{
 }
 
 a:hover{
-  background-color: black;
+  background-color: white;
+}
+
+.home{
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#contact{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #menu_trigger{
@@ -84,4 +107,41 @@ a:hover{
     display: none;
   }
 
+}
+
+@media (max-width: 970px){
+
+  .home{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 689px){
+  #contact{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 580px){
+
+  .video{
+    width: 100%;
+  }
+}
+
+@media (max-width: 520px){
+
+  #resume{
+    width: 100%;
+  }
+}
+
+@media (max-width: 340px){
+
+  #resume{
+    height: 450px;
+  }
 }
